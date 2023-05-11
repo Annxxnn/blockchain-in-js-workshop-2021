@@ -61,6 +61,7 @@ const main = () => {
     longestChain[2].hash == thirdBlock.hash,
     `Height block hash should be ${thirdBlock.hash}`,
   )
+  console.log(longestChain)
 }
 
 main()
